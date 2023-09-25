@@ -1,6 +1,8 @@
 import componentsImage from "./assets/images/components.png";
 import stateImage from "./assets/images/state.png";
 import eventsImage from "./assets/images/events.png";
+import jsxImage from "./assets/images/jsx-scripting.png"
+import reactNativeImage from "./assets/images/react_native.png"
 
 import Header from "./components/Header";
 import Concept from "./components/Concept";
@@ -24,6 +26,18 @@ const concepts = [
     description:
       "Event handlers are added via props to (built-in) components. You pass functions as values to such event handlers to control which functions gets executed for which event.",
   },
+  {
+    title: "JSX",
+    image: jsxImage,
+    description:
+      "Stands for 'JavaScript XML,' but it is also called 'JavaScript Syntax Extension.'  JSX lets you write HTML-like markup within a JavaScript file. Although there are other ways to write components, most React developers prefer the conciseness of JSX.",
+  },
+  {
+    title: "React Native",
+    image: reactNativeImage,
+    description:
+      "React primitives render to native platform UI, meaning your app uses the same native platform APIs other apps do.  React Native is an open-source UI software framework. It is used to develop apps for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP.",
+  },  
 ];
 
 function App() {
@@ -47,19 +61,14 @@ function App() {
           description={concepts[2].description}
         />
         <Concept
-          image={concepts[0].image}
-          title={concepts[0].title}
-          description={concepts[0].description}
+          image={concepts[3].image}
+          title={concepts[3].title}
+          description={concepts[3].description}
         />
         <Concept
-          image={concepts[1].image}
-          title={concepts[1].title}
-          description={concepts[1].description}
-        />
-        <Concept
-          image={concepts[2].image}
-          title={concepts[2].title}
-          description={concepts[2].description}
+          image={concepts[4].image}
+          title={concepts[4].title}
+          description={concepts[4].description}
         />
       </ul>
     </div>

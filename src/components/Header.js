@@ -5,8 +5,9 @@ function Header() {
   return (
     <header>
       <img src={keyConceptsImage} alt="Medal badge with a star" />
-      <h1>Key React Concepts</h1>
-      <p>Selected key React concepts you should know about</p>
+      <h1>Key ReactJS Concepts</h1>
+      <br />
+      <p>Selected key React concepts you should know about and understand!</p>
     </header>
   );
 }
