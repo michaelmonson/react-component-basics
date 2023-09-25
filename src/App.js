@@ -30,13 +30,13 @@ const concepts = [
     title: "JSX",
     image: jsxImage,
     description:
-      "Stands for 'JavaScript XML,' but it is also called 'JavaScript Syntax Extension.'  JSX lets you write HTML-like markup within a JavaScript file. Although there are other ways to write components, most React developers prefer the conciseness of JSX.",
+      "Called 'JavaScript XML' or 'JavaScript Syntax Extension.'  JSX lets you write HTML-like markup in a JavaScript file. Although there are other ways to write components, most React developers prefer the conciseness of JSX.",
   },
   {
     title: "React Native",
     image: reactNativeImage,
     description:
-      "React primitives render to native platform UI, meaning your app uses the same native platform APIs other apps do.  React Native is an open-source UI software framework. It is used to develop apps for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP.",
+      "React Native is an open-source UI software framework. It is used to develop app's for Android, iOS, macOS, Web, Windows and UWP. Primitives render to native platform UI, so your app uses the same native platform APIs!",
   },  
 ];
 
